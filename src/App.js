@@ -3,10 +3,10 @@ import {
   getPokemonList,
   getPokemonDescription,
   getPokemonSpriteUrl
-} from "../api/utils";
-import Select from "../components/Select";
-import Card from "../components/Card";
-import "../styles/styles.css";
+} from "./api/utils";
+import Select from "./components/Select";
+import Card from "./components/Card";
+import "./styles/styles.css";
 
 export default function App() {
   const [pokemons, setPokemons] = useState({});
